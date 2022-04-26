@@ -1,10 +1,11 @@
 ---
 layout: post
 title: 100+ Python exercises for Python 3
+subtitle: 100+ Python challenging programming exercises
 categories: python
 tags: [python, bài tập, exercises]
-subtitle: 100+ Python challenging programming exercises
 ---
+
 # 100+ Python exercises for Python 3
 
 ## 1. Level description
