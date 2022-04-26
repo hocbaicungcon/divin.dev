@@ -3,7 +3,8 @@ layout: post
 title: 100+ Python exercises for Python 3
 categories: python
 tags: [python, bài tập, exercises]
-subtitle: Bài tập Python có hướng dẫn như dãy Fibonacci, tính giai thừa, tính tổng, tạo class...
+subtitle: 100+ Python challenging programming exercises
+---
 # 100+ Python exercises for Python 3
 
 ## 1. Level description
