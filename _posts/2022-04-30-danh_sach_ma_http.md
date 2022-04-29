@@ -7,7 +7,6 @@ tags: [hosting, web, htpt]
 ---
 
 
-
 ## Mã trạng thái HTTP Status Code là gì?
 
 Mã trạng thái HTTP Status Code là trạng thái được phản hồi lại mỗi khi Search Engine hoặc người dùng đưa ra yêu cầu (request) cho web server. 
