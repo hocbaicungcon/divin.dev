@@ -14,7 +14,7 @@ Mã trạng thái HTTP Status Code là trạng thái được phản hồi lại
 
 Mã trạng thái HTTP là các số nguyên có ba chữ số. Chữ số đầu tiên được sử dụng để xác định mã trong một danh mục cụ thể nằm trong năm danh mục sau đây.
 
-![Lỗi 400 Bad Request là gì? Cách khắc phục lỗi 400 Bad Request](/Volumes/DATA/DEV/Github/divin.dev/assets/images/400-bad-request.png)
+![Lỗi 400 Bad Request là gì? Cách khắc phục lỗi 400 Bad Request](https://divin.dev/assets/images/400-bad-request.png)
 
 ## Phân nhóm mã trạng thái HTTP
 
