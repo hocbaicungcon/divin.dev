@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Danh sách mã trạng thái của HTTP
-subtitle: Danh sách mã trạng thái của HTTP
+subtitle: Danh sách mã trạng thái của HTTP (HTTP Status COde) và ý nghĩa của nó
 categories: web
-tags: [hosting, web, htpt]
+tags: [hosting, web, http]
 ---
 
 
