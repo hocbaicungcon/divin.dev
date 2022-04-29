@@ -6,7 +6,7 @@ categories: web
 tags: [hosting, web, htpt]
 ---
 
-# Danh sách mã trạng thái của HTTP
+
 
 ## Mã trạng thái HTTP Status Code là gì?
 

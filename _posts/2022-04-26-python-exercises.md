@@ -6,8 +6,6 @@ categories: python
 tags: [python, bài tập, exercises]
 ---
 
-# 100+ Python exercises for Python 3
-
 ## 1. Level description
 
 ### Level 1 Beginner
