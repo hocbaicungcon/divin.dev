@@ -7,7 +7,6 @@
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%} 
       <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}
     </time>
-    <div class="fb-share-button" data-href="https://divin.dev/{{ page.url }}" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdivin.dev%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
     {% assign article = page.content %}
     <!-- {% assign lang = page.lang %} -->
     {%- include functions.html func='get_reading_time' -%}
@@ -20,6 +19,7 @@
     <a class="post-tag" href="{{ '/tags.html ' | relative_url }}#{{tag}}">#{{tag}}</a>
     {%- endfor -%}
   </div>
+  <div class="fb-share-button" data-href="https://divin.dev/{{ page.url }}" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdivin.dev%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
   {%- endif -%}
   
   </p>
