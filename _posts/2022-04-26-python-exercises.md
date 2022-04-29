@@ -42,7 +42,7 @@ Hints: Consider use range(#begin, #end) method
 
 Solution:
 
-```
+```python
 l=[]
 for i in range(2000, 3201):
     if (i%7==0) and (i%5!=0):
@@ -61,7 +61,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 def fact(x):
     if x == 0:
         return 1
@@ -81,7 +81,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 n=int(input())
 d=dict()
 for i in range(1,n+1):
@@ -100,7 +100,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 values=input()
 l=values.split(",")
 t=tuple(l)
@@ -118,7 +118,7 @@ Hints: Use **init** method to construct some parameters
 
 Solution:
 
-```
+```python
 class InputOutString(object):
     def __init__(self):
         self.s = ""
@@ -144,7 +144,7 @@ Hints: If the output received is in decimal form, it should be rounded off to it
 
 Solution:
 
-```
+```python
 import math
 c=50
 h=30
@@ -166,7 +166,7 @@ Hints: Note: In case of input data being supplied to the question, it should be 
 
 Solution:
 
-```
+```python
 input_str = input()
 dimensions=[int(x) for x in input_str.split(',')]
 rowNum=dimensions[0]
@@ -190,7 +190,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 items=[x for x in input().split(',')]
 items.sort()
 print(','.join(items))
@@ -206,7 +206,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 lines = []
 while True:
     s = input()
@@ -229,7 +229,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 s = input()
 words = [word for word in s.split(" ")]
 print(" ".join(sorted(list(set(words)))))
@@ -245,7 +245,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 value = []
 items=[x for x in input().split(',')]
 for p in items:
@@ -266,7 +266,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 values = []
 for i in range(1000, 3001):
     s = str(i)
@@ -285,7 +285,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 s = input()
 d={"DIGITS":0, "LETTERS":0}
 for c in s:
@@ -309,7 +309,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 s = input()
 d={"UPPER CASE":0, "LOWER CASE":0}
 for c in s:
@@ -333,7 +333,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 a = input()
 n1 = int( "%s" % a )
 n2 = int( "%s%s" % (a,a) )
@@ -352,7 +352,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 values = input()
 numbers = [x for x in values.split(",") if int(x)%2!=0]
 print(",".join(numbers))
@@ -370,7 +370,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 netAmount = 0
 while True:
     s = input()
@@ -461,7 +461,7 @@ Hints: Consider use yield
 
 Solution:
 
-```
+```python
 def putNumbers(n):
     i = 0
     while i<n:
@@ -484,7 +484,7 @@ Hints: In case of input data being supplied to the question, it should be assume
 
 Solution:
 
-```
+```python
 import math
 pos = [0,0]
 while True:
@@ -518,7 +518,7 @@ Hints In case of input data being supplied to the question, it should be assumed
 
 Solution:
 
-```
+```python
 freq = {}   # frequency of words in text
 line = input()
 for word in line.split():
@@ -541,7 +541,7 @@ Hints: Using the ** operator
 
 Solution:
 
-```
+```python
 def square(num):
     return num ** 2
 
@@ -563,7 +563,7 @@ And add document for your own function Hints: The built-in document method is **
 
 Solution:
 
-```
+```python
 print(abs.__doc__)
 print(int.__doc__)
 print(input.__doc__)
@@ -589,7 +589,7 @@ Hints: Define a instance parameter, need add it in **init** method You can init 
 
 Solution:
 
-```
+```python
 class Person:
     # Define the class parameter "name"
     name = "Person"
@@ -1073,7 +1073,7 @@ Use class Subclass(ParentClass) to define a subclass.
 
 Solution:
 
-```
+```python
 class American(object):
     pass
 
@@ -1096,7 +1096,7 @@ Use def methodName(self) to define a method.
 
 Solution:
 
-```
+```python
 class Circle(object):
     def __init__(self, r):
         self.radius = r
@@ -1118,7 +1118,7 @@ Use def methodName(self) to define a method.
 
 Solution:
 
-```
+```python
 class Rectangle(object):
     def __init__(self, l, w):
         self.length = l
@@ -1141,7 +1141,7 @@ To override a method in super class, we can define a method with the same name i
 
 Solution:
 
-```
+```python
 class Shape(object):
     def __init__(self):
         pass
@@ -1171,7 +1171,7 @@ Use raise() to raise an exception.
 
 Solution:
 
-```
+```python
 raise RuntimeError('something wrong')
 ```
 
@@ -1185,7 +1185,7 @@ Use try/except to catch exceptions.
 
 Solution:
 
-```
+```python
 def throws():
     return 5/0
 
@@ -1209,7 +1209,7 @@ To define a custom exception, we need to define a class inherited from Exception
 
 Solution:
 
-```
+```python
 class MyError(Exception):
     """My own exception class
 
@@ -1243,7 +1243,7 @@ Use \w to match letters.
 
 Solution:
 
-```
+```python
 import re
 emailAddress = raw_input()
 pat2 = "(\w+)@((\w+\.)+(com))"
@@ -1271,7 +1271,7 @@ Use \w to match letters.
 
 Solution:
 
-```
+```python
 import re
 emailAddress = raw_input()
 pat2 = "(\w+)@(\w+)\.(com)"
@@ -1299,7 +1299,7 @@ Use re.findall() to find all substring using regex.
 
 Solution:
 
-```
+```python
 import re
 s = raw_input()
 print(re.findall("\d+",s))
@@ -1315,7 +1315,7 @@ Use u'strings' format to define unicode string.
 
 Solution:
 
-```
+```python
 unicodeString = u"hello world!"
 print(unicodeString)
 ```
@@ -1330,7 +1330,7 @@ Use unicode() function to convert.
 
 Solution:
 
-```
+```python
 s = input()
 u = unicode( s ,"utf-8")
 print(u)
@@ -1344,7 +1344,7 @@ Hints:
 
 Solution:
 
-```
+```python
 # -*- coding: utf-8 -*-
 
 #----------------------------------------#
@@ -1368,7 +1368,7 @@ Hints: Use float() to convert an integer to a float
 
 Solution:
 
-```
+```python
 n=int(input())
 sum=0.0
 for i in range(1,n+1):
@@ -1398,7 +1398,7 @@ Hints: We can define recursive function in Python.
 
 Solution:
 
-```
+```python
 def f(n):
     if n==0:
         return 0
@@ -1431,7 +1431,7 @@ Hints: We can define recursive function in Python.
 
 Solution:
 
-```
+```python
 def f(n):
     if n == 0: return 0
     elif n == 1: return 1
@@ -1463,7 +1463,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 Solution:
 
-```
+```python
 def f(n):
     if n == 0: return 0
     elif n == 1: return 1
@@ -1492,7 +1492,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 Solution:
 
-```
+```python
 def EvenGenerator(n):
     i=0
     while i<=n:
@@ -1527,7 +1527,7 @@ In case of input data being supplied to the question, it should be assumed to be
 
 Solution:
 
-```
+```python
 def NumGenerator(n):
     for i in range(n+1):
         if i%5==0 and i%7==0:
@@ -1549,7 +1549,7 @@ Hints: Use "assert expression" to make assertion.
 
 Solution:
 
-```
+```python
 li = [2,4,6,8]
 for i in li:
     assert i%2==0
@@ -1571,7 +1571,7 @@ Hints: Use eval() to evaluate an expression.
 
 Solution:
 
-```
+```python
 expression = raw_input()
 print(eval(expression))
 ```
@@ -1584,7 +1584,7 @@ Hints: Use if/elif to deal with conditions.
 
 Solution:
 
-```
+```python
 import math
 def bin_search(li, element):
     bottom = 0
@@ -1614,7 +1614,7 @@ Hints: Use if/elif to deal with conditions.
 
 Solution:
 
-```
+```python
 import math
 def bin_search(li, element):
     bottom = 0
@@ -1644,7 +1644,7 @@ Hints: Use random.random() to generate a random float in [0,1].
 
 Solution:
 
-```
+```python
 import random
 print(random.random()*100)
 ```
@@ -1657,7 +1657,7 @@ Hints: Use random.random() to generate a random float in [0,1].
 
 Solution:
 
-```
+```python
 import random
 print(random.random()*100-5)
 ```
@@ -1670,7 +1670,7 @@ Hints: Use random.choice() to a random element from a list.
 
 Solution:
 
-```
+```python
 import random
 print(random.choice([i for i in range(11) if i%2==0]))
 ```
@@ -1683,7 +1683,7 @@ Hints: Use random.choice() to a random element from a list.
 
 Solution:
 
-```
+```python
 import random
 print(random.choice([i for i in range(201) if i%5==0 and i%7==0]))
 ```
@@ -1696,7 +1696,7 @@ Hints: Use random.sample() to generate a list of random values.
 
 Solution:
 
-```
+```python
 import random
 print(random.sample(range(100), 5))
 ```
@@ -1709,7 +1709,7 @@ Hints: Use random.sample() to generate a list of random values.
 
 Solution:
 
-```
+```python
 import random
 print(random.sample([i for i in range(100,201) if i%2==0], 5))
 ```
@@ -1722,7 +1722,7 @@ Hints: Use random.sample() to generate a list of random values.
 
 Solution:
 
-```
+```python
 import random
 print(random.sample([i for i in range(1,1001) if i%5==0 and i%7==0], 5))
 ```
@@ -1735,7 +1735,7 @@ Hints: Use random.randrange() to a random integer in a given range.
 
 Solution:
 
-```
+```python
 import random
 print(random.randrange(7,16))
 ```
@@ -1748,7 +1748,7 @@ Hints: Use zlib.compress() and zlib.decompress() to compress and decompress a st
 
 Solution:
 
-```
+```python
 import zlib
 s = b'hello world!hello world!hello world!hello world!'
 t = zlib.compress(s)
@@ -1764,7 +1764,7 @@ Hints: Use timeit() function to measure the running time.
 
 Solution:
 
-```
+```python
 from timeit import Timer
 t = Timer("for i in range(100):1+1")
 print(t.timeit())
@@ -1778,7 +1778,7 @@ Hints: Use shuffle() function to shuffle a list.
 
 Solution:
 
-```
+```python
 from random import shuffle
 li = [3,6,7,8]
 shuffle(li)
@@ -1793,7 +1793,7 @@ Hints: Use shuffle() function to shuffle a list.
 
 Solution:
 
-```
+```python
 from random import shuffle
 li = [3,6,7,8]
 shuffle(li)
@@ -1808,7 +1808,7 @@ Hints: Use list[index] notation to get a element from a list.
 
 Solution:
 
-```
+```python
 subjects=["I", "You"]
 verbs=["Play", "Love"]
 objects=["Hockey","Football"]
@@ -1827,7 +1827,7 @@ Hints: Use list comprehension to delete a bunch of element from a list.
 
 Solution:
 
-```
+```python
 li = [5,6,77,45,22,12,24]
 li = [x for x in li if x%2!=0]
 print(li)
@@ -1841,7 +1841,7 @@ Hints: Use list comprehension to delete a bunch of element from a list.
 
 Solution:
 
-```
+```python
 li = [12,24,35,70,88,120,155]
 li = [x for x in li if x%5!=0 and x%7!=0]
 print(li)
@@ -1855,7 +1855,7 @@ Hints: Use list comprehension to delete a bunch of element from a list. Use enum
 
 Solution:
 
-```
+```python
 li = [12,24,35,70,88,120,155]
 li = [x for (i,x) in enumerate(li) if i%2!=0]
 print(li)
@@ -1869,7 +1869,7 @@ Hints: Use list comprehension to make an array.
 
 Solution:
 
-```
+```python
 array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
 print(array)
 ```
@@ -1882,7 +1882,7 @@ Hints: Use list comprehension to delete a bunch of element from a list. Use enum
 
 Solution:
 
-```
+```python
 li = [12,24,35,70,88,120,155]
 li = [x for (i,x) in enumerate(li) if i not in (0,4,5)]
 print(li)
@@ -1896,7 +1896,7 @@ Hints: Use list's remove method to delete a value.
 
 Solution:
 
-```
+```python
 li = [12,24,35,24,88,120,155]
 li = [x for x in li if x!=24]
 print(li)
@@ -1910,7 +1910,7 @@ Hints: Use set() and "&=" to do set intersection operation.
 
 Solution:
 
-```
+```python
 set1=set([1,3,6,78,35,55])
 set2=set([12,24,35,24,88,120,155])
 set1 &= set2
@@ -1926,7 +1926,7 @@ Hints: Use set() to store a number of values without duplicate.
 
 Solution:
 
-```
+```python
 def removeDuplicate( li ):
     newli=[]
     seen = set()
@@ -1949,7 +1949,7 @@ Hints: Use Subclass(Parentclass) to define a child class.
 
 Solution:
 
-```
+```python
 class Person(object):
     def getGender( self ):
         return "Unknown"
@@ -1984,7 +1984,7 @@ Hints: Use dict to store key/value pairs. Use dict.get() method to lookup a key 
 
 Solution:
 
-```
+```python
 dic = {}
 s=raw_input()
 for s in s:
@@ -2008,7 +2008,7 @@ Hints: Use list[::-1] to iterate a list in a reverse order.
 
 Solution:
 
-```
+```python
 s=raw_input()
 s = s[::-1]
 print(s)
@@ -2030,7 +2030,7 @@ Hints: Use list[::2] to iterate a list by step 2.
 
 Solution:
 
-```
+```python
 s=raw_input()
 s = s[::2]
 print(s)
@@ -2044,7 +2044,7 @@ Hints: Use itertools.permutations() to get permutations of list.
 
 Solution:
 
-```
+```python
 import itertools
 print(list(itertools.permutations([1,2,3])))
 ```
