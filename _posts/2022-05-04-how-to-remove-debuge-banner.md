@@ -23,4 +23,3 @@ CupertinoApp(
 ```
 
 The ***debug*** banner will also automatically be removed on release build. If you are using Android Studio then go to *Run* → *Flutter* → *Run 'main.dart' in Release mode*.
-
