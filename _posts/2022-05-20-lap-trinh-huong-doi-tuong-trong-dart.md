@@ -6,9 +6,9 @@ categories: flutter
 tags: [flutter, debug, dart, class]
 ---
 
-# 4 tính chất của OOP
+##4 tính chất của OOP
 
-# Tính kế thừa
+###Tính kế thừa
 
 <aside>
 💡 Dart sử dụng từ khóa `extends` để tạo ra một `class` mới kế thừa một class đã có sẵn.
@@ -33,9 +33,9 @@ class Child extends Parent {
 }
 ```
 
-# Các loại kế thừa
+##Các loại kế thừa
 
-## Đơn kế thừa:
+### Đơn kế thừa:
 
 <aside>
 💡 `class` con kế thừa 1 `class` cha
@@ -57,7 +57,7 @@ class Child extends Parent {
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5ece2b5-918f-40e4-a6ac-b856e6998d97/Untitled.png)
 
-## Đa kế thừa:
+### Đa kế thừa:
 
 <aside>
 💡 `class` con có thể kế thừa nhiều `class` cha. ***Dart không hỗ trợ đa kế thừa***
@@ -66,7 +66,7 @@ class Child extends Parent {
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9b76cf38-6d1b-4a2b-8fa1-fad68482b24f/Untitled.png)
 
-## Kế thừa đa cấp
+### Kế thừa đa cấp
 
 <aside>
 💡 `class` có thể kế thừa một `class`con khác
@@ -95,7 +95,7 @@ class GrandChild extends Child {
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc516493-45d2-4bf9-8763-629dd700b1da/Untitled.png)
 
-## Kế thừa phân cấp
+##‹ Kế thừa phân cấp
 
 Nhiều `class` con kế thừa cùng một `class` cha
 
@@ -118,12 +118,12 @@ class Child2 extends Parent {
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bf5c3463-0da1-4cd8-996b-4169968cf59f/Untitled.png)
 
-## Lưu ý
+### Lưu ý
 
 - `class` con chỉ kế thừa các thuộc tính và phương thức của `class` cha, không kế thừa constructor của `class` cha
 - Dart không hỗ trợ đa kế thừa
 
-## Từ khóa `super`
+### Từ khóa `super`
 
 <aside>
 💡 Từ khóa `super` refer đến lớp cha của lớp hiện tại. `super` có thể dùng để gọi các phương thức hoặc thuộc tính của class cha. Khi một instance của class con được khởi tạo, một instance của class cha cũng sẽ được tạo ra ngầm định và `super` refer đến instance cha đó.
@@ -170,7 +170,7 @@ void main() {
 }
 ```
 
-# Tính đóng gói
+## Tính đóng gói
 
 <aside>
 💡 Dart có 2 phạm vi truy cập dữ liệu là public và private. Để chỉ thị một thành phần là private, sử dụng kí tự gạch dưới "_" trước thành phần đó.
@@ -245,7 +245,7 @@ void main() {
 }
 ```
 
-# Tính đa hình
+##Tính đa hình
 
 <aside>
 💡 Một biến, một hàm hoặc một phương thức có thể tồn tại ở nhiều dạng khác nhau. Tức là nhiều hàm hoặc phương thức có thể cùng một tên nhưng chức năng thực sự của chúng lại khác nhau.
@@ -275,7 +275,7 @@ void main() {
 }
 ```
 
-## Lưu ý
+###Lưu ý
 
 <aside>
 ⚠️ Dart **chỉ hỗ trợ đa hình thời gian chạy (runtime polymorphism)** bằng việc sử dụng ghi đè phương thức
@@ -294,7 +294,7 @@ void main() {
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a777ec8b-9b38-4f41-8960-f4847c07f277/Untitled.png)
 
-# Tính trừu tượng
+##Tính trừu tượng
 
 <aside>
 💡 Tính trừu tượng trong OOP là tính chất không thể hiện cụ thể mà chỉ nêu vấn đề, chỉ hiển thị tính năng thiết yếu mà không cần nói rõ quy trình hoạt động. Nói cách khác, tính trừu tượng chỉ cho biết thông tin đối tượng thay vì cách sử dụng nó như thế nào
@@ -328,7 +328,7 @@ class Dog extends Animal {
 }
 ```
 
-## Interface
+##Interface
 
 <aside>
 💡 Mỗi class được định nghĩa đều ngầm định tạo ra một interface tương ứng. Để sử dụng một interface, khai báo class kèm theo từ khóa `implements` và tên interface.
@@ -356,7 +356,7 @@ void main() {
 }
 ```
 
-## Mixin
+##Mixin
 
 <aside>
 💡 Với Dart thì Mixin là một lớp, nó không được sử dụng trực tiếp để tạo ra đối tượng, một Mixin chứa các phương thức, thuộc tính dùng để gộp vào một lớp khác.
