@@ -1,3 +1,10 @@
+---
+layout: post
+title: 100+ Bài tập Python có lời giải
+subtitle: 100+ Bài tập Python có lời giải dành cho học sinh lớp 11
+categories: python
+tags: [python, bài tập, exercises]
+---
 # Bài tập Python thực hành với code mẫu 
 
 Hơn 100 bài tập Python kèm code mẫu được chia thành 3 cấp độ dành cho cả người mới bắt đầu học lập trình, người đã học lập trình nhưng mới học Python và những người muốn nâng cao trình độ Python. Mỗi bài tập đều có đầy đủ các phần là yêu cầu của bài, gợi ý làm bài và lời giải (code mẫu).
