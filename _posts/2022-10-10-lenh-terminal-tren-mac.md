@@ -137,7 +137,7 @@ Bạn có thể sử dụng lệnh top ở trên để tìm PID, sau đó sử d
 
 Ví dụ: man <command>
 
-![img](../assets/images/man_command-1024x605.webp)
+![img](https://divin.dev/assets/images/man_command-1024x605.webp)
 
 Mỗi lệnh sẽ có hướng dẫn đi kèm giải thích chính xác cách sử dụng và những cờ khác nhau kèm theo, cùng với một số ví dụ về các lệnh đang được sử dụng, man sẽ giúp bạn tìm hiểu kĩ hơn về lệnh đó. Ví dụ: lệnh top có rất nhiều cờ và các công cụ khác, bạn có thể đọc về cách sử dụng bằng cách gõ: man top. Nếu bạn muốn thành thạo dòng lệnh, việc sử dụng lệnh man là rất quan trọng.
 
