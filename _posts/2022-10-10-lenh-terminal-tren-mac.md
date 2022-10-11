@@ -131,7 +131,7 @@ Lệnh này sẽ hiển thị đường dẫn thư mục hiện tại bạn đan
 
 Ví dụ: kill <PID>
 
-![img](../assets/images/kill_command-1024x148.webp)
+![img](/assets/images/kill_command-1024x148.webp)
 
 Bạn có thể sử dụng lệnh top ở trên để tìm PID, sau đó sử dụng Kill để chấm dứt Process đó, ví dụ: kill 3993**15. Tìm hiểu thêm về một command nào đó: man**
 
