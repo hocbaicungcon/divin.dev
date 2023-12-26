@@ -12,7 +12,7 @@ Curious about entering the programming world and mastering coding skills? You've
 
 We'll explore various programmer roles, key programming languages tailored to specific paths, and the most effective methods for acquiring these languages.
 
-![How to Become A Programmer](/Users/phuongphan/DEV/divin.dev/assets/images/OIG.jpeg)
+![How to Become A Programmer](https://divin.dev/assets/images/OIG.jpeg)
 
 ### **What Programmers Do:**
 
